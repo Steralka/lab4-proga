@@ -47,9 +47,9 @@ public class Main {
             on.thinkabout(filleandrulle);
 
             //анонимный класс
-            Person Kirill = new Person("Кирилл") {
+            Person Karloson = new Person("Карлосон") {
                 public void go() {
-                    System.out.println(getName() + " " + "верит что закроет лабу!");
+                    System.out.println(getName() + " " + "верит что закрыл дверь!");
                 }
             };
             
