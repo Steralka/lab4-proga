@@ -47,13 +47,13 @@ public class Main {
             on.thinkabout(filleandrulle);
 
             //анонимный класс
-            Person Karloson = new Person("Карлосон") {
+            Person Karlson = new Person("Карлсон") {
                 public void go() {
                     System.out.println(getName() + " " + "верит что закрыл дверь!");
                 }
             };
             
-            Kirill.go();
+            Karlson.go();
             chance1.chanceofstay(filleandrulle);
             chance2.chanceofpritailis(filleandrulle);
             malish.scare();
